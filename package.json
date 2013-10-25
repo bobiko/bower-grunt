@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bower-task": "~0.3.2"
+  },
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-bower-task": "~0.3.2"
+  },
+  "repository": "git@github.com:bobiko/bowgrunt.git",
+  "author": "bobiko",
+  "license": "BSD"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "authors": [
+    "Jakub Dominik <me@bobiko.pl>"
+  ],
+  "description": "Testing",
+  "main": "index.php",
+  "keywords": [
+    "node",
+    "bower",
+    "grunt"
+  ],
+  "license": "non-profit",
+  "homepage": "bobiko.pl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "~2.0.3",
+    "lesshat": "latest",
+    "font-awesome": "latest",
+    "modernizr": "latest"
+  },
+  "exportsOverride": {    
+    "font-awesome": {
+      "less":   "less/*.less",
+      "fonts":  "fonts/*.*"
+    }, 
+    "*": {                
+        "js": "**/*.js",
+        "less": "**/*.less",
+        "img": "**/images/*.png",
+        "fonts":  "**/fonts/*.*"
+    }
+  }
+}
