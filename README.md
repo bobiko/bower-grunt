@@ -1,4 +1,4 @@
-#Advanced settings for Bower.js#
+#bower-grunt: Advanced settings for Bower & Grunt#
 
 Przykladowe configs do ogarniecia front-endu przy pomocy **bower** i **grunt** 
 
